@@ -78,7 +78,3 @@
         <pre><code>npm run dev</code></pre>
     </li>
 </ol>
-
-<strong>Este projeto foi desenvolvido como trabalho acadêmico.</strong>
-
-<p><strong>Licença:</strong> Todos os direitos reservados.</p>
