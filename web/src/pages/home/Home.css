@@ -1,0 +1,66 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.home-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.home-description {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  max-width: 850px;
+}
+
+.home-image {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  border-radius: 10px;
+  margin: 40px 0;
+}
+
+.register-button {
+  padding: 10px 30px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.register-button a {
+  color: aliceblue;
+}
+
+.register-button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .home-title {
+    font-size: 1.5rem;
+  }
+
+  .home-description {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .register-button {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 10px;
+  }
+}

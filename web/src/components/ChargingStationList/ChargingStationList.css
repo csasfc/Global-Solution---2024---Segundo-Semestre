@@ -1,0 +1,31 @@
+.charging-station-list {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.charging-station-list h2 {
+  margin-bottom: 15px; 
+}
+
+.station-cards-container {
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px; 
+}
+
+.station-card {
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.station-card h3 {
+  margin: 0;
+}
+
+.station-card p {
+  margin: 5px 0;
+}
